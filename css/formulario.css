@@ -125,6 +125,23 @@
     border: 1px solid var(--colorError);
 }
 
+.mapa{
+    width: 70%;
+    padding: 1rem;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--colC1) 0%, var(--colC2) 100%);
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    margin: 60px auto;
+    box-shadow: 0 0 6px var(--color_shadow);
+}
+.mapa iframe{
+    width: 95%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+}
 
 
 /* RESPONSIVE */
