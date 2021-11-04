@@ -320,10 +320,12 @@ p.contact__title{
     .services .card{
         width: 90%;
     }
+
     .item__contact{
         width: 100%;
         height: 3rem;
         padding: .5rem 0;
+        text-align: left;
     }
     .contact__title{
         display: inline;
